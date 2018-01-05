@@ -5,6 +5,7 @@ public class Calculator
     {
 
         System.out.println("Arithmetic Operations");
+        System.out.println("CHANGES");
 
         if(name.equals("plus"))
         {
