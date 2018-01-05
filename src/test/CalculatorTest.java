@@ -19,7 +19,7 @@ public class CalculatorTest
     public void testPlusOperation()
     {
         int testOperation = calculator.performOperations("plus",8,8);
-
+        System.out.println("@Test.");
         Assert.assertEquals(testOperation,16);
     }
 
