@@ -3,6 +3,9 @@ public class Calculator
 
     public int performOperations(String name,int a,int b)
     {
+
+        System.out.println("Arithmetic Operations");
+
         if(name.equals("plus"))
         {
             return a+b;
